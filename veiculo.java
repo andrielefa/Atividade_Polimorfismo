@@ -1,8 +1,7 @@
-public class veiculo{
-    public double precoBase;
-    
-}
+package Oficina;
 
-public veiculo (double precoBase){
-    this.precoBase = precoBase;
+public class Veiculo {
+    public double calcularPrecoPiso(double valorPecas, double percentual) {
+        return valorPecas * (1 + percentual / 100);
+    }
 }
